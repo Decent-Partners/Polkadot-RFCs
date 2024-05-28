@@ -44,7 +44,7 @@ It is worth noting that the fate of the 160k KSM accrued funds in the society po
 This RFC is relevant to the following stakeholders, listed from high to low impact:
 
 - Token holders who would gain oversight of the burn based spending oversight without need for a runtime upgrade and therefore coding experience. Depending on the parameters, these changes may or may not require a particular governance track.
-- On-chain organisations wishing to access a consistent optimistic burn based funding mechanism that previously benefitted Kappa Sigma Mu. 
+- On-chain organisations wishing to access a consistent optimistic burn based funding mechanism that previously benefitted Kappa Sigma Mu.  
 - Kappa Sigma Mu who would no longer receive top ups to the society pot.
 
 ## Explanation
