@@ -12,7 +12,7 @@ This RFC proposes to expose Kusama's burn based spending structure which is curr
 
 - As a matter of consistency to ensure all on-chain organisations operate under the same technical and social oversight.
 - In recognition that burn derived stream funding is an under-appreciated funding primitive that can be made more accessible and programmable
-- As an alternative approach to implementing an easier to implement version of the [Liquid Treasury / Optimistic Fundin](https://polkadot.subsquare.io/referenda/712) wish for change in Polkadot in Kusama.
+- As an alternative approach to implementing an easier to implement version of the [Liquid Treasury / Optimistic Funding](https://polkadot.subsquare.io/referenda/712) wish for change in Polkadot in Kusama.
 
 ## Motivation
 
