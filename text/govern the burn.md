@@ -10,9 +10,9 @@
 
 This RFC proposes to expose Kusama's burn based spending structure which is currently solely utilised by Kappa Sigma Mu society to OpenGov for the following reasons:
 
-    As a matter of consistency to ensure all on-chain organisations operate under the same technical and social oversight.
-    In recognition that burn derived stream funding is an under-appreciated funding primitive that can be made more accessible and programmable
-    As an alternative approach to implementing an easier to implement version of the [Liquid Treasury / Optimistic Fundin](wish for change in Polkadot) in Kusama.
+- As a matter of consistency to ensure all on-chain organisations operate under the same technical and social oversight.
+- In recognition that burn derived stream funding is an under-appreciated funding primitive that can be made more accessible and programmable
+- As an alternative approach to implementing an easier to implement version of the [Liquid Treasury / Optimistic Fundin](wish for change in Polkadot) in Kusama.
 
 ## Motivation
 
