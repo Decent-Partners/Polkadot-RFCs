@@ -33,8 +33,8 @@ Whilst a technical solution can address the issue, it should really be a decisio
 It is worth noting that the fate of the 160k KSM accrued funds in the society pot is out of scope for this RFC since the account exists as a second order effect of the burn parameterisation and should be addressed through existing technical capabilities by either: 
 
 - Use existing governance calls `ForceSetBalance` and/or `ForceSetTransfer` to either;
- - Burn funds leaving operational overhead for the society game
- - Repatriate funds to the Kusama treasury as combination of economic reset and to boost spend going into the burn.  
+  - Burn funds leaving operational overhead for the society game
+  - Repatriate funds to the Kusama treasury as combination of economic reset and to boost spend going into the burn.  
 - Updating the `society pallet` to make the pot spendable (unlikely)
 
 ## Stakeholders
