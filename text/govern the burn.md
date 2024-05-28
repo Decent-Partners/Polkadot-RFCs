@@ -3,7 +3,7 @@
 |                 |                                                                                             |
 | --------------- | ------------------------------------------------------------------------------------------- |
 | **Start Date**  | 28.05.24                                                                    |
-| **Description** | Place stream spending feature utilised by [Kappa Sigma Mu Society]([https://hackmd.io/@gavwood/ByEiaFgZ8](https://guide.kusama.network/docs/maintain-guides-society-kusama/)) pot under direct governance oversight by exposing the burn and related parameters to OpenGov.                                                                    |
+| **Description** | Place stream spending feature utilised by [Kappa Sigma Mu Society](https://ksmsociety.io/wiki) pot under direct governance oversight by exposing the burn and related parameters to OpenGov.                                                                    |
 | **Authors**     | [Decent Partners](https://decent.partners) / tbc                                                                                            |
 
 ## Summary
