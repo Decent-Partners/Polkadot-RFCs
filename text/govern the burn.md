@@ -102,7 +102,7 @@ Would exposing the burn based spending model to governance require a new track a
 
 ## Future Directions and Related Material
 
-The burn model in Kusama could become the pre-ignition phase for a new generation of on-chain collectives kickstarted through novel multi-chain incentives, pledges and rewards. With the governance super-powers of [Krievo's](https://virto.network/blog/1ksm-1dao-create-community-kreivo/) XCM focused organisational design and payment rails, alongsie [native grass-roots stablecoins](https://kusama.polkassembly.io/referenda/362 arriving into Kusama Asset Hub via [Brale](https://brale.xyz), we believe new incentive structures can emerge that better align the incentives of voters, parachains and collectives in positive, rather than zero sum games. 
+The burn model in Kusama could become the pre-ignition phase for a new generation of on-chain collectives kickstarted through novel multi-chain incentives, pledges and rewards. With the governance super-powers of [Krievo's](https://virto.network/blog/1ksm-1dao-create-community-kreivo/) XCM focused organisational design and payment rails, alongsie [native grass-roots stablecoins](https://kusama.polkassembly.io/referenda/362) arriving into Kusama Asset Hub via [Brale](https://brale.xyz), we believe new incentive structures can emerge that better align the incentives of voters, parachains and collectives in positive, rather than zero sum games. 
 
 Related reading:
 - [ParaNotes](https://forum.polkadot.network/t/introducing-paranotes-regenerative-defi-for-advancing-the-paraverse/1002)
