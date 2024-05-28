@@ -24,9 +24,9 @@ In the current 6 day spend period on Kusama [494 KSM / $16k will be burned](http
 
 Kusama Society Kappa Sigma Mu, one of the earliest experiments on the network receives funding to its economic game to encourage new members to get a tattoo of a canary.
 
-The pot is funded by 0.2% of the burn which streams in every 6 day spend period with people wishing to enter the society proposing bids in return for getting a tattoo. However the society pot is limited to 16.666 per week for bids.
+The pot is funded by 0.2% of the burn which streams in every 6 day spend period with people wishing to enter the society proposing bids in return for getting a tattoo. However the society pot is limited to 16.666 KSM per week for bids.
 
-As a result of this uninterrupted funding, the account now holds [160k+ KSM worth over $5m equivalent](https://kusama.subscan.io/account/F3opxRbN5ZbbNGg1tFTKna9ymddEen74rNVr5JRPb3nRsXX). Even if the burn halts, it would take almost 200 years to spend down the funds.
+As a result of uninterrupted funding, the account now holds [160k+ KSM worth over $5m equivalent](https://kusama.subscan.io/account/F3opxRbN5ZbbNGg1tFTKna9ymddEen74rNVr5JRPb3nRsXX). Even if the burn halts, it would take almost 200 years to spend down the funds.
 
 The society cannot use the funds, but due to the early implementation of the burn funding feature in the network, the ability to amend the spend requires a technical change to the core runtime. 
 
@@ -49,9 +49,16 @@ This RFC is relevant to the following stakeholders, listed from high to low impa
 
 ## Explanation
 
-### TBC
+### Parameters to expose (suggestion).
 
-Detail
+If new `burn-pallet`
+
+- total burn (as proportion of treasury)
+- % of burn to be streamed
+- period of burn
+- cancel burn
+- suspend burn
+- revoke burn
 
 ### TBC
 
