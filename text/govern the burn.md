@@ -41,40 +41,19 @@ It is worth noting that the fate of the 160k KSM accrued funds in the society po
 
 This RFC is relevant to the following stakeholders, listed from high to low impact:
 
-    Token holders who would gain oversight of the burn based spending oversight without need for a runtime upgrade and therefore coding experience. Depending on the parameters, these changes may or may not require a particular governance track.
-    On-chain organisations wishing to access a consistent optimistic burn based funding mechanism that previously benefitted Kappa Sigma Mu. 
-    Kappa Sigma Mu who would no longer receive top ups to the society pot.
+- Token holders who would gain oversight of the burn based spending oversight without need for a runtime upgrade and therefore coding experience. Depending on the parameters, these changes may or may not require a particular governance track.
+- On-chain organisations wishing to access a consistent optimistic burn based funding mechanism that previously benefitted Kappa Sigma Mu. 
+- Kappa Sigma Mu who would no longer receive top ups to the society pot.
 
 ## Explanation
 
-### Existing Order
+### TBC
 
-orded by the standard pallet_timestamp), is passed to EraPayout as an input, as is measured against the full year to determine how much should be inflated.
+Detail
 
-### New Order
+### TBC
 
-    The naming used in this section is tentative, based on a WIP implementation, and subject to change before finalization of this RFC.
-
-The new order splits the process for inflation into two steps:
-
-    Sourcing the inflation amount: This step merely specifies by how much the chain intends to inflate its token. This amount is not minted right away, and is instead passed over to the next step for distribution.
-    Distributing the aforementioned amount: A sequence of functions that decide what needs to be done with the sourced inflation amount. This process is expected to transfer the inflation amount to any account that should receive it. This implies that the staking system should, similar to treasury, have a key-less account that will act as a temporary pot for the inflation amount.
-
-In very abstract terms, an example of the above process can be:
-
-    The chain inflates its token by a fixed 10% per year, an amount called i.
-    Pay out 20% of i to the treasury account.
-    Pay out 10% of what is left of i to the fellowship account.
-    Pay out up to 70% of what is left of i to staking, depending on the staking rate.
-    Burn anything that is left.
-
-A proper configuration of this pallet should use pallet_parameters where possible to allow for any of the actual values used to specify Sourcing and Distribution to be changed via on-chain governance. Please see the example configurations section for more details.
-
-In the new model, inflation can happen at any point in time. Since now a new pallet is dedicated to inflation, and it can internally store the timestamp of the last inflation point, and always inflate the correct amount. This means that while the duration of a staking era is 1 day, the inflation process can happen eg. every hour. The opposite is also possible, although more complicated: The staking/treasury system can possibly receive their corresponding income on a weekly basis, while the era duration is still 1 day. That being said, we don't recommend using this flexibility as it brings no clear advantage, and is only extra complexity. We recommend the inflation to still happen shortly before the end of the staking era. This means that if the inflation sourcing or distribution is a function of the staking rate, it can reliably use the staking rate of the last era.
-
-Finally, as noted above, this RFC implies a new accounting system for staking to keep track of its staking reward. In short, the new process is as follows: pallet_inflation will mint the staking portion of inflation directly into a key-less account controlled by pallet_staking. At the end of each era, pallet_staking will inspect this account, and move whatever amount is paid out into it to another key-less account associated with the era number. The actual payouts, initiated by stakers, will transfer from this era account into the corresponding stakers' account.
-
-    Interestingly, this means that any account can possibly contribute to staking rewards by transferring DOTs to the key-less parent account controlled by the staking system.
+Detail
 
 ### Proposed Implementation
 
