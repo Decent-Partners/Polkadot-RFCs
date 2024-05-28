@@ -14,6 +14,8 @@ This RFC proposes to expose Kusama's burn based spending structure which is curr
 - In recognition that burn derived stream funding is an under-appreciated funding primitive that can be made more accessible and programmable
 - As an alternative approach to implementing an easier to implement version of the [Liquid Treasury / Optimistic Funding](https://polkadot.subsquare.io/referenda/712) wish for change in Polkadot in Kusama.
 
+Relates to in voting Kusama wish for change [ref #403](https://kusama.polkassembly.io/referenda/403).
+
 ## Motivation
 
 Within the current design of Kusama (and Polkadot) protocols there exists a [treasury and a burn mechanism](https://guide.kusama.network/docs/learn-polkadot-opengov-treasury/), designed to incentivise the spending of accrued funds.
