@@ -12,9 +12,9 @@ This RFC proposes to expose Kusama's burn based spending structure which is curr
 
 - As a matter of consistency to ensure all on-chain organisations operate under the same technical and social oversight.
 - In recognition that burn derived stream funding is an under-appreciated funding primitive that can be made more accessible and programmable
-- As an alternative approach to implementing an easier to implement version of the [Liquid Treasury / Optimistic Funding](https://polkadot.subsquare.io/referenda/712) wish for change in Polkadot in Kusama.
+- As an alternative approach to implementing an easier to implement version of the [Liquid Treasury / Optimistic Funding](https://polkadot.subsquare.io/referenda/712) wish for change in Polkadot in Kusama. In the next 24 day spend period 298.77K DOT ~ $2.2m will be burned in Polkadot, a if Kusama structure of 0.2% were introduced it would equate to $440k (1/5th of the burn).
 
-Relates to in voting Kusama wish for change [ref #403](https://kusama.polkassembly.io/referenda/403).
+This RFC relate to in voting Kusama wish for change [ref #403](https://kusama.polkassembly.io/referenda/403).
 
 ## Motivation
 
